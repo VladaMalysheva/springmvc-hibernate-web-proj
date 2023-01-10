@@ -9,14 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="searching for dependencies">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
+    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="searching for dependencies2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673385300282</updated>
-      <workItem from="1673385301538" duration="4567000" />
+      <workItem from="1673385301538" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="searching for dependencies">
       <created>1673389415967</created>
@@ -179,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673389415967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="searching for dependencies2">
+      <created>1673389934103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673389934103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="searching for dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="searching for dependencies" />
+    <MESSAGE value="searching for dependencies2" />
+    <option name="LAST_COMMIT_MESSAGE" value="searching for dependencies2" />
   </component>
 </project>
