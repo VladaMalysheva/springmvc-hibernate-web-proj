@@ -24,6 +24,7 @@
     </div>
 
 <form:form modelAttribute="customer" action="saveCustomer" method="post">
+    <input type="hidden" value="${customer.id}">
     <table>
         <tbody>
         <tr>
