@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="created first controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/TestDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/TestDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,19 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c4355201-89b1-48b3-9165-c6dcfc2701bb" />
+        <option name="url" value="https://github.com/Vladavvv/springmvc-hibernate-web-proj.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
-      </map>
-    </option>
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -68,7 +79,8 @@
     "last_opened_file_path": "C:/Users/prost/IdeaProjects/springmvc-hibernate-web-proj/src/main/webapp/WEB-INF",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.3207024"
+    "project.structure.side.proportion": "0.3207024",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -79,6 +91,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\prost\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -179,6 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673385300282</updated>
       <workItem from="1673385301538" duration="5985000" />
+      <workItem from="1673436968422" duration="6203000" />
     </task>
     <task id="LOCAL-00001" summary="searching for dependencies">
       <created>1673389415967</created>
