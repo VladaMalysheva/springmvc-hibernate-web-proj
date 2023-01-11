@@ -10,6 +10,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link type="text/css"
+    rel="stylesheet"
+    href = "${pageContext.request.contextPath}/jspresources/css/style.css">
     <title>Title</title>
 </head>
 <body>
@@ -20,6 +23,11 @@
 </div>
 <div id="container">
     <div id="content">
+
+
+        <input type="button" value="Add customer" onclick="window.location.href='showFormForAdd'" class="add-button"/>
+
+
         <table>
             <tr>
                 <th>First name</th>

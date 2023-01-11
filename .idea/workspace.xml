@@ -9,17 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="created first controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="reconfigured web app and created working CustomerController">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jspresources/css/add-customer-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jspresources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/TestDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/TestDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -76,7 +78,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/prost/IdeaProjects/springmvc-hibernate-web-proj/src/main/webapp/WEB-INF",
+    "last_opened_file_path": "D:/Java/IdeaProjects/springmvc-hibernate-web-proj/src/main/webapp/jspresources/css",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.3207024",
@@ -90,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp\jspresources\css" />
       <recent name="C:\Users\prost\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -194,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673385300282</updated>
       <workItem from="1673385301538" duration="5985000" />
-      <workItem from="1673436968422" duration="6203000" />
+      <workItem from="1673436968422" duration="13537000" />
     </task>
     <task id="LOCAL-00001" summary="searching for dependencies">
       <created>1673389415967</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673390355420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reconfigured web app and created working CustomerController">
+      <created>1673443893852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673443893852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +248,7 @@
     <MESSAGE value="searching for dependencies" />
     <MESSAGE value="searching for dependencies2" />
     <MESSAGE value="created first controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="created first controller" />
+    <MESSAGE value="reconfigured web app and created working CustomerController" />
+    <option name="LAST_COMMIT_MESSAGE" value="reconfigured web app and created working CustomerController" />
   </component>
 </project>

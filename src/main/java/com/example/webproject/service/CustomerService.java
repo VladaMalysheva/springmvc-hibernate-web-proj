@@ -1,11 +1,10 @@
-package com.example.webproject.dao;
+package com.example.webproject.service;
 
 import com.example.webproject.entity.Customer;
-import com.example.webproject.service.CustomerService;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
     public List<Customer> getCustomers();
     public void saveCustomer(Customer customer);
