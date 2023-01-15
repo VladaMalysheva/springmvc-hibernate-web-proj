@@ -3,10 +3,7 @@ package com.example.webproject.rest;
 import com.example.webproject.entity.Customer;
 import com.example.webproject.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,6 +26,19 @@ public class CustomerController {
         if(customer==null){
             throw new CustomerNotFoundException("Customer with id " + id + " not found");
         }
+        return customer;
+    }
+
+    @PostMapping("/customers")
+    public Customer postCustomer(@RequestBody Customer customer){
+        customer.setId(0);
+        service.saveCustomer(customer);
+        return customer;
+    }
+
+    @PutMapping("/customers")
+    public Customer updateCustomer(@RequestBody Customer customer){
+        service.saveCustomer(customer);
         return customer;
     }
 }
