@@ -25,6 +25,10 @@ public class CustomerController {
 
     @GetMapping("/customers/{id}")
     public Customer getCustomer(@PathVariable int id){
-        return service.getCustomer(id);
+        Customer customer = service.getCustomer(id);
+        if(customer==null){
+            throw new CustomerNotFoundException("Customer with id " + id + " not found");
+        }
+        return customer;
     }
 }
