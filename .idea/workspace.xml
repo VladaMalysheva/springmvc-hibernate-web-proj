@@ -9,15 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="created saving customer">
+    <list default="true" id="bb959f2a-9c8e-4845-882b-cca9a32fa439" name="Changes" comment="created Customer class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/rest/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproject/testdb/TestDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +26,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -50,7 +48,16 @@
     </option>
   </component>
   <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -61,6 +68,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2K9SRRQYbLpK4lfvINRdm0LxO7H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -74,10 +88,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/IdeaProjects/springmvc-hibernate-web-proj/src/main/webapp/jspresources/css",
+    "last_opened_file_path": "C:/Users/prost/IdeaProjects/springmvc-hibernate-web-proj/src/main/webapp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.3207024",
+    "spring.configuration.checksum": "649239648d9f66ad0d3480842aea82dd",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -88,6 +103,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prost\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp" />
+      <recent name="C:\Users\prost\IdeaProjects\springmvc-hibernate-web-proj" />
       <recent name="D:\Java\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp\jspresources\css" />
       <recent name="C:\Users\prost\IdeaProjects\springmvc-hibernate-web-proj\src\main\webapp\WEB-INF" />
     </key>
@@ -194,6 +211,7 @@
       <updated>1673385300282</updated>
       <workItem from="1673385301538" duration="5985000" />
       <workItem from="1673436968422" duration="17859000" />
+      <workItem from="1673803011335" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="searching for dependencies">
       <created>1673389415967</created>
