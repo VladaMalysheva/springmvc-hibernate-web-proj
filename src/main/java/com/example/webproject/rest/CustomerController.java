@@ -41,4 +41,15 @@ public class CustomerController {
         service.saveCustomer(customer);
         return customer;
     }
+
+    @DeleteMapping("/customers/{id}")
+    public String deleteCustomer(@PathVariable int id){
+        Customer customer = service.getCustomer(id);
+        if(customer==null){
+            throw new CustomerNotFoundException("Customer with id " + id + " wasn't found");
+        }
+        service.deleteCustomer(id);
+
+        return "Successfully deleted customer " + id;
+    }
 }
